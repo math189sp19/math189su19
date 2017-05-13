@@ -1,0 +1,300 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>math189r</title>
+    <meta name="description" content="Harvey Mudd Mathematics of Big Data I">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h2> <a href="index.html">math189r</a> </h2>
+        <h3>
+            <a href="info/">Info</a>
+        </h3>
+    </div>
+
+    <div class="body">
+        <h3>Mathematics of Big Data I</h3>
+        <p>
+            Professor Weiqing Gu</br>
+            Harvey Mudd College</br>
+            Fall 2016
+        </p>
+
+        <p class="left-align">
+            <b>Readings</b> should be done <i>before</i> class. Reading summaries (specification in info section) are due for all non-Murphy readings at the start of class.
+        </p>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Thursday</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>Aug. 29</td>
+            <td></td>
+            <td>
+                <a href="materials/section/linear.pdf">Linear Algebra and Matrix Calculus Review</a></br></br>
+                <a href="materials/section/convex.pdf">Convex Optimization</br>Overview I</a> </br></br>
+                <a href="notes/week_0/linear_convex_review.pdf">(notes from review)</a>
+            </td>
+        </tr>
+
+        <!-- Supervised Learning -->
+        <tr>
+            <td><b>Supervised Learning</b></br><a href="notes/week_1/lecture.pdf">Sept. 5</a></td>
+            <td>
+                Introduction to Big Data. Linear Regression. Normal
+                Equations and Optimization Techniques. Solving the Normal
+                Equations efficiently (Cholesky Decomposition).
+                Various forms of Linear regression.
+                 </br></br>
+
+                <b>Read:</b> Murphy 1.{all} (DEFINITELY READ BEFORE FIRST CLASS)</br>
+                <b>Read:</b> Murphy, 7.{1,...,5}
+            </td>
+            <td>
+                <a href="http://cs229.stanford.edu/section/cs229-prob.pdf">Probability Review</a></br></br>
+                <a href="notes/week_1/probability_review.pdf">(notes from review)</a></br></br>
+                (also Murphy 2.{all} is a great resource)
+            </td>
+        </tr>
+        <tr>
+            <td><a href="notes/week_2/lecture.pdf">Sept. 12</a></td>
+            <td>
+                Classification. K-Nearest Neighbors. 
+                Logistic Regression. Exponential
+                Family and Generalized Linear Models. Logistic
+                Regression as a GLM.</br></br>
+
+                <b>Read:</b> Murphy, 8.{1,2,3,5} \ 8.{3.4,3.5}, 9.{1,2.2,2.4,3}
+                <b>Due:</b> <a href="hw/pset/sept_19.pdf">Homework 1 (first third)</a> <a href="hw/pset/sept_19_sol.pdf">(solutions)</a></br>
+            </td>
+            <td>
+                <a href="materials/section/convex.pdf">Convex Optimization</br>Overview II</a></br></br>
+                Tutorial on Scientific Python
+            </td>
+        </tr>
+        <tr>
+            <td><a href="notes/week_2/lecture.pdf">Sept. 19</a></td>
+            <td>
+                Generalized Linear Models continued.
+                Poisson Regression. Softmax Regression.
+                Covariance matrix; Multivariate Gaussian
+                Distribution. Marginalized Gaussian and the Schur
+                Complement.
+                Regularization continued. Big Data as
+                a Regularizer.
+                </br></br>
+
+                <b>Read:</b> Murphy 9.7, </br>4.{1,2,3,4,5,6} (important background)</br>
+                <b>Due:</b> <a href="hw/pset/sept_19.pdf">Homework 1 (second third)</a></br>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="notes/week_3/lecture.pdf">Sept. 26</a></td>
+            <td>
+                Dimensionality Reduction; Spectral Decomposition, Singular Value Decomposition,
+                and Principal Component Analysis.
+                </br></br>
+
+                Generative Learning Algorithms.
+                Gaussian Discriminant Analysis.
+                </br></br>
+
+                <b>Due:</b> Final Project Proposal
+                <b>Due:</b> <a href="hw/pset/sept_19.pdf">Homework 1 (last third)</a>
+            </td>
+            <td>
+                Scientific Computing Review / Help Session
+            </td>
+        </tr>
+        <tr>
+            <td><a href="notes/week_4/lecture.pdf">Oct.  3</a></td>
+            <td>
+                Naive Bayes. L1 Regularization and Sparsity.
+                Lasso. Support Vector Machines. Kernels.</br></br>
+
+                <b>Read:</b> Murphy 14.{1,2,3,4} \ 14.{4.4}</br>
+                <b>Read:</b> <a href="http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf">MapReduce: Simplified Data Processing on Large Clusters</a></br>
+                <b>Due:</b> <a href="hw/pset/oct_10.pdf">Homework 2 (first half)</a> <a href="hw/pset/oct_10_sol.pdf">(solutions)</a>
+            </td>
+            <td>
+                Midterm Review
+            </td>
+        </tr>
+
+        <!-- Unsupervised Learning -->
+        <tr>
+            <td><b> Unsupervised Learning </b></br><a href="notes/week_5/lecture.pdf">Oct.  10</a></td>
+            <td>
+                Introduction to Unsupervised Learning.
+                Clustering. K-Means. Mixture of Gaussians.
+                Expectation-Maximization (EM) Algorithm.</br></br>
+
+                <b>Read:</b> Murphy 11.{1,2,3,4} \ 11.{4.6,4.9}</br>
+                <b>Read:</b> <a href="http://www.ee.oulu.fi/research/imag/courses/Vedaldi/ShalevSiSr07.pdf">Pegasos: Primal Estimated sub-GrAdient SOlver for SVM</a></br>
+                <b>Read:</b> <a href="https://people.eecs.berkeley.edu/~brecht/papers/07.rah.rec.nips.pdf">Random Features for Large-Scale Kernel Machines</a> (deep insight)</br>
+                <b>Due:</b> <a href="hw/pset/oct_10.pdf">Homework 2 (second half)</a>
+            </td>
+            <td>
+                <a href="materials/section/constrained_optimization.pdf">Constrained Optimization</a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="">Oct.  17</a></td>
+            <td>Fall Break</td>
+            <td>
+                <a href="materials/section/mapreduce.pdf">MapReduce and</br>Distributed Computation</br> and Learning</a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="notes/week_7/lecture.pdf">Oct.  24</a></td>
+            <td>
+                Principal Component Analysis (PCA) Review.
+                Kernel PCA. One Class Support Vector
+                Machines. </br></br>
+
+                <b>Read:</b> Murphy 12.2.{0,1,2,3} 14.4.4</br>
+                <b>Read:</b> <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.675.575&rep=rep1&type=pdf"> Support Vector Method for Novelty Detection</a></br>
+                <b>Due:</b> <a href="exam/math189r_fall_2016_midterm.pdf">Midterm</a>. (<a href="exam/math189r_fall_2016_midterm_solution.pdf">solutions</a>) (<a href="exam/results.txt">results</a>)</br>
+                <b>Due:</b> Final Project Progress Report.
+            </td>
+            <td>
+                <a href="materials/section/deployment.pdf">Evaluating Models; Deployment</a>
+            </td>
+        </tr>
+        <tr>
+            <td><b> Learning Theory </b></br><a href="notes/week_8/lecture.pdf">Oct.  31</a></td>
+            <td>
+                Learning Theory. VC Dimension. Bias/Variance
+                Trade-off. Union and Chernoff/Hoeffding
+                Bounds.</br></br>
+
+                <b>Read:</b> <a href="http://papers.nips.cc/paper/4337-large-scale-sparse-principal-component-analysis-with-application-to-text-data.pdf">Large-Scale Sparse Principal Component Analysis with Application to Text Data</a></br>
+                <b>Read:</b> <a href="http://projecteuclid.org/download/pdf_1/euclid.aos/1176346060">On the Convergence Properties of the EM Algorithm</a></br>
+                <b>Due:</b> <a href="hw/pset/nov_7.pdf">Homework 3 (first half)</a> (<a href="hw/pset/nov_7_sol.pdf">solutions</a>)
+            </td>
+            <td>
+                <a href="materials/section/hmm.pdf">Applications of EM: Hidden Markov Models</a>
+            </td>
+        </tr>
+
+        <!-- Recommender Systems -->
+        <tr>
+            <td><b> Recommender Systems </b></br><a href="">Nov.  7</a></td>
+            <td>
+                Introduction to Recommender Systems. Collaborative
+                Filtering. Non-Negative Matrix Factorization.
+                Using Non-Negative Matrix Factorization for Topic
+                Modelling.</br></br>
+
+                <b>Read:</b> Murphy 27.6.2</br>
+                <b>Read:</b> <a href="http://sifter.org/~simon/journal/20061211.html">Netflix Update: Try This at Home</a></br>
+                <b>Due:</b> <a href="hw/pset/nov_7.pdf">Homework 3 (second half)</a>
+            </td>
+            <td>
+            </td>
+        </tr>
+
+        <!-- Graph Methods -->
+        <tr>
+            <td><b>Graph Methods</b></br><a href="">Nov.  14</a></td>
+            <td>
+                Graphs. Graph representations as data. The Laplacian
+                and usage of Spectral (Eigenvalue-Eigenvector) information.
+                </br></br>
+                Directed Graphical Models (Bayesian Networks). Conditional
+                Independence. Naive Bayes
+                as a Graphical Model. Plate Notation. 
+                </br></br>
+
+                <b>Read:</b> Murphy 10.{1,2,3,4,5,6}</br>
+                <b>Due:</b> <a href="hw/pset/nov_21.pdf">Homework 4 (first half)</a> (<a href="hw/pset/nov_21_sol.pdf">solutions</a>)
+            </td>
+            <td>
+                <a href="materials/section/xsede.pdf">XSEDE Demo</a>
+            </td>
+        </tr>
+
+        <!-- Bayesian Learning -->
+        <tr>
+            <td><b>Bayesian Learning</b></br><a href="">Nov.  21</a></td>
+            <td>
+                Recap of Bayesian Reasoning.
+                Bayesian Linear Regression (which we've already seen).
+                Bayesian Logistic Regression. Intractable Integrals and
+                Motivation for Approximate Methods.</br></br>
+
+                <b>Read:</b> Murphy 5.{1,2,3.0,3.2} 7.6, 8.4</br>
+                <b>Read:</b> <a href="https://hips.seas.harvard.edu/files/adams-changepoint-tr-2007.pdf">Bayesian Online Changepoint Detection</a></br>
+                <b>Due:</b> <a href="hw/pset/nov_21.pdf">Homework 4 (second half)</a>
+            </td>
+            <td>Thanksgiving</td>
+        </tr>
+        <tr>
+            <td><a href="">Nov.  28</a></td>
+            <td>
+                Monte-Carlo Methods. Rejection Sampling.
+                Importance Sampling. Intro to Markov-Chain
+                Monte-Carlo.
+                Gibbs Sampling. The Metropolis-Hastings
+                Algorithm. </br></br>
+
+                <b>Read:</b> Murphy 23.{1,2,3,4} \ 23.4.3,
+                                    24.{1,2.(1,2,3,4), 3,4} \ 24.{3.7}</br>
+                <b>Optional Read:</b> Murphy 24.{5,6}
+                <b>Due:</b> <a href="hw/pset/nov_28.pdf">Homework 5 (all)</a> (<a href="hw/pset/nov_28_sol.pdf">solutions</a>)
+            </td>
+            </td>
+            <td>
+                <a href="materials/section/gp.pdf">Application: Identifying Rapidly Deteriorating Water Quality Locations With Gaussian Processes</a></br></br>
+
+                Some (~10) Final Project Presentations will be given
+                one day this week.
+            </td>
+        </tr>
+        <tr>
+            <td><a href="">Dec.  5</a></td>
+            <td>
+                Latent Dirichlet Allocation.
+                Nonparametric Models. K-Nearest-Neighbors as
+                a Nonparametric Model. Gaussian Processes. 
+                Dirichlet Processes and the infinite mixture of Gaussians.</br></br>
+            
+                <b>Read:</b> Murphy 15.{1,2,3,4}, 25.2, 27.{1,2,3}</br>
+                <b>Read:</b> <a href="http://jmlr.org/proceedings/papers/v28/wilson13.pdf">Gaussian Process Kernels for Pattern Discovery and Extrapolation</a></br>
+                <b>Due:</b> Final Project!
+            </td>
+            <td>
+                Final Project Presentations. We will distribute
+                these across 2 days, where on the final day we will watch
+                presentations of
+                class and instructor chosen extraordinary projects.
+            </td>
+        </tr>
+        <tr>
+            <td>Dec.  12</td>
+            <td>Finals</td>
+            <td>Finals</td>
+        </tr>
+    </tbody>
+</table>
+        
+    </div>
+
+</body>
+</html>
