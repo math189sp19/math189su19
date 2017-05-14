@@ -581,6 +581,31 @@
 			}
 
 
+		.wrapper.style7 {
+			background: white;
+		}
+
+			.wrapper.style7 p {
+				font-size: 1.05em;
+			}
+
+			.wrapper.style7 ul {
+				margin-left: 3em;
+				margin-right: 6em;
+			}
+
+			.wrapper.style7  td, th{
+			    border: 1px solid black;
+			    text-align: left;
+			    padding: 8px
+			}
+
+			.wrapper.style7  thead {
+					background-color: #696969;
+					color: white;
+			}
+
+
 /* Header */
 
 	#header {
