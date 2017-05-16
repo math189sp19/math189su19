@@ -3,6 +3,7 @@
 *.out
 *.log
 *.synctex.gz
+*.tex
 
 # Other
 .DS_Store
