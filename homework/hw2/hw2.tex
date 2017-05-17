@@ -83,23 +83,15 @@ features.
 	\argmin \frac{1}{N}\sum_{i=1}^N (y_i - (w_0 + \ww^\T\xx_i))^2 + \lambda ||\ww||_2^2
 	\]
 	with $\lambda = \sigma^2 / \tau^2$.
+	\newline
 	\item (\textbf{math}) Find a closed form solution $\xx^\star$ to the ridge regression
 	problem:
 	\[
 	\text{minimize: } ||A\xx - \bb||_2^2 + ||\Gamma\xx||_2^2.
 	\]
-	(continued on the following pages)
-\end{enumerate}
-\end{problem}
-\begin{solution}
-	\vfill
-\end{solution}
-\newpage
-
-\begin{problem}[4 (continued)]
-\begin{enumerate}[(a)]
-	\setcounter{enumi}{2}
-\item (\textbf{implementation}) Attempt to predict the $\log\text{shares}$ using ridge
+	
+	\item
+	(\textbf{implementation}) Attempt to predict the $\log\text{shares}$ using ridge
 regression from the previous problem solution. Make sure you include a bias
 term and \textit{don't regularize the bias term}.
 Find the optimal regularization parameter $\lambda$
@@ -107,7 +99,19 @@ from the validation set. Plot both $\lambda$ versus the validation RMSE (you sho
 tried at least 150 parameter settings randomly chosen between 0.0 and 150.0 because
 the dataset is small)
 and $\lambda$ versus $||\thetab^\star||_2$ where $\thetab$ is your weight vector.
-What is the final RMSE on the test set with the optimal $\lambda^\star$?
+What is the final RMSE on the test set with the optimal $\lambda^\star$?\\
+\newline
+(continued on the following pages)
+\end{enumerate}
+\end{problem}
+\begin{solution}
+	\vfill
+\end{solution}
+\newpage
+
+\begin{problem}[3 (continued)]
+\begin{enumerate}[(a)]
+	\setcounter{enumi}{3}
 \item (\textbf{math}) Consider regularized linear regression where we pull the
 basis term out of the feature vectors. That is, instead of computing $\hat\yy
 = \thetab^\T\xx$ with $\xx_0 = 1$, we compute $\hat\yy = \thetab^\T\xx + b$.
@@ -118,6 +122,7 @@ This corresponds to solving the optimization problem
 Solve for the optimal $\xx^\star$ explicitly. Use this close form to compute the
 bias term for the previous problem (with the same regularization strategy). Make
 sure it is the same.
+\newline
 \item (\textbf{implementation}) We can also compute the solution to the least squares
 problem using gradient descent. Consider the same bias-relocated objective
 \[
