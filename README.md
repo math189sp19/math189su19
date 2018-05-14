@@ -1,7 +1,7 @@
-# Mathematics of Big Data Summer 2017  
+# Mathematics of Big Data Summer 2018  
 Taught by Professor Weiqing Gu
 
-This page is created for the Mathematics of Big Data course Summer 2017.
+This page is created for the Mathematics of Big Data course Summer 2018.
 
 
 # References:
