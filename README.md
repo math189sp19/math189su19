@@ -1,12 +1,12 @@
-# Mathematics of Big Data Summer 2018  
+# Mathematics of Big Data Summer 2019  
 Taught by Professor Weiqing Gu
 
-This page is created for the Mathematics of Big Data course Summer 2018.
+This page is created for the Mathematics of Big Data course Summer 2019.
 
 
 # References:
   1. math189r
-      * https://math189r.github.ios
+      * https://math189r.github.io
       * This is the page created for Mathematics of Big Data Fall 2016 by
       Conner DiPaolo, the head grutor of that course.
       * Most of the information in syllabus and course schedule are obtained
